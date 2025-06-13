@@ -8,12 +8,16 @@ const Hero = () => {
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background to-[#FAFAFA]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Automate Your Business with{" "}
-            <span className="bg-gradient-to-r from-[#0070F3] via-[#7928CA] to-[#FF0080] bg-clip-text text-transparent">
-              AI Intelligence
+          <h1 className="relative block mt-20 text-4xl sm:text-5xl lg:text-7xl font-bold text-foreground mb-20 mt-6 leading-loose">
+            Looking for {" "}
+            <span className="relative block mt-5">  
+              <span className="relative z-10 bg-gradient-to-r from-[#0070F3] via-[#7928CA] to-[#FF0080] bg-clip-text text-transparent">
+                AI Automation?
+              </span>
             </span>
+
           </h1>
+
           <p className="text-lg sm:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
             Transform your operations with cutting-edge AI automation solutions. 
             We help businesses streamline processes, reduce costs, and scale efficiently.
