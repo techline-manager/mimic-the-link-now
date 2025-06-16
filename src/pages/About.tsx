@@ -13,11 +13,12 @@ const About = () => {
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            About <span className="bg-gradient-to-r from-[#0070F3] to-[#7928CA] bg-clip-text text-transparent">TechLineAI</span>
+            We're the <span className="bg-gradient-to-r from-[#0070F3] to-[#7928CA] bg-clip-text text-transparent">anti-consultants</span>
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            We're a passionate team of technologists, entrepreneurs, and problem-solvers who believe 
-            that every business deserves access to the transformative power of AI automation.
+            Three engineers who quit big tech because we were tired of building tools 
+            that only other big tech companies could afford. Now we build AI that 
+            actually helps real businesses.
           </p>
         </div>
       </section>
@@ -25,26 +26,26 @@ const About = () => {
       {/* Our Story Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FAFAFA]">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8 text-center">Our Story</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-8 text-center">How This Started</h2>
           <div className="prose prose-lg mx-auto text-muted-foreground">
             <p className="mb-6">
-              TechLineAI was born from a simple observation: while large corporations were leveraging AI to 
-              gain competitive advantages, small and medium businesses were being left behind due to complexity, 
-              cost, and lack of technical expertise.
+              Picture this: Sarah works at Microsoft building AI that helps enterprises save millions. 
+              Meanwhile, her brother runs a small accounting firm and spends 4 hours every Friday 
+              manually categorizing expenses because "AI is too expensive and complicated."
             </p>
             <p className="mb-6">
-              Our founders, having worked at both Fortune 500 companies and nimble startups, witnessed firsthand 
-              how automation could transform operations. But they also saw the gap – the tools and expertise 
-              that could revolutionize a small healthcare practice or local marketing agency simply weren't 
-              accessible or affordable.
+              That's when it hit us. The same automation that helps Fortune 500 companies could 
+              transform every small business - if someone just made it accessible and affordable. 
+              So we quit our corporate jobs and started building tools for the underdogs.
             </p>
             <p className="mb-6">
-              We decided to change that. Our mission became clear: democratize AI automation for businesses 
-              of all sizes, making it simple, affordable, and tailored to real-world needs.
+              No PowerPoints. No 6-month "digital transformation journeys." No buzzwords. 
+              Just practical AI that solves real problems for real people who have better 
+              things to do than wrestle with technology.
             </p>
             <p>
-              Today, we've helped over 500 businesses streamline their operations, reduce costs, and focus 
-              on what they do best – serving their customers and growing their impact.
+              Three years later, we've helped over 500 small businesses reclaim their time 
+              and sanity. And we're just getting started.
             </p>
           </div>
         </div>

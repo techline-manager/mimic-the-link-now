@@ -6,23 +6,23 @@ const ValuesSection = () => {
   const values = [
     {
       icon: Target,
-      title: "Results-Driven",
-      description: "We measure our success by the tangible impact we create for your business. Every solution is designed with clear ROI in mind."
+      title: "No BS, Just Results",
+      description: "We measure success in hours saved and headaches prevented. If it doesn't make your life easier, we don't build it."
     },
     {
       icon: Users,
-      title: "Human-Centered",
-      description: "Technology should enhance human potential, not replace it. We build AI that empowers your team and improves customer experiences."
+      title: "Humans First",
+      description: "Technology should make you feel superhuman, not replaceable. We build tools that amplify what you're already great at."
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "We stay at the forefront of AI technology, continuously learning and adapting to bring you the most effective solutions."
+      title: "Smart, Not Shiny",
+      description: "We care more about solving problems than using the latest tech trend. Sometimes the best solution is surprisingly simple."
     },
     {
       icon: Shield,
-      title: "Trust & Transparency",
-      description: "We believe in honest communication, ethical AI practices, and building long-term partnerships based on mutual trust."
+      title: "Straight Talk",
+      description: "No jargon, no overselling, no 'revolutionary paradigm shifts.' Just honest conversations about what will actually help your business."
     }
   ];
 
@@ -31,10 +31,10 @@ const ValuesSection = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Our Values
+            What We Actually Believe
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            These principles guide every decision we make and every solution we create.
+            No corporate mission statement here. Just the principles that guide how we work.
           </p>
         </div>
 

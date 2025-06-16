@@ -13,23 +13,24 @@ const Contact = () => {
       <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-            Let's <span className="bg-gradient-to-r from-[#0070F3] to-[#7928CA] bg-clip-text text-transparent">Transform</span> Your Business
+            Ready to Stop <span className="bg-gradient-to-r from-[#0070F3] to-[#7928CA] bg-clip-text text-transparent">Wasting Time?</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Ready to streamline your operations with AI automation? We're here to help you get started.
+            Tell us what's driving you crazy, and we'll show you how to fix it. 
+            No sales pitch, no commitment - just an honest conversation about what's possible.
           </p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
             <span className="flex items-center">
               <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-              Free consultation
+              30-minute free chat
             </span>
             <span className="flex items-center">
               <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-              Custom solution design
+              Real solutions, not sales talk
             </span>
             <span className="flex items-center">
               <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-              No commitment required
+              We actually answer emails
             </span>
           </div>
         </div>
