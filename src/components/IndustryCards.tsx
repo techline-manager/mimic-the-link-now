@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Heart, DollarSign, Megaphone, Truck } from "lucide-react";
+import { Heart, DollarSign, Megaphone, Truck, Scale, ShoppingCart } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const IndustryCards = () => {
@@ -57,6 +57,32 @@ const IndustryCards = () => {
         "Quality control and compliance monitoring"
       ],
       color: "text-blue-500"
+    },
+    {
+      icon: Scale,
+      title: "Legal",
+      description: "Modernize legal practices with intelligent document and case management",
+      sectors: ["Law Firms", "Legal Consultants", "Corporate Legal", "Family Law"],
+      solutions: [
+        "Document automation and template generation",
+        "Case management and deadline tracking",
+        "Client intake and onboarding workflows",
+        "Contract analysis and compliance monitoring"
+      ],
+      color: "text-amber-500"
+    },
+    {
+      icon: ShoppingCart,
+      title: "E-Commerce",
+      description: "Boost sales and customer satisfaction with automated retail solutions",
+      sectors: ["Online Retailers", "Dropshipping", "Marketplace Sellers", "B2B Commerce"],
+      solutions: [
+        "Inventory synchronization across platforms",
+        "Customer service chatbots and support",
+        "Price monitoring and dynamic pricing",
+        "Order fulfillment and shipping automation"
+      ],
+      color: "text-indigo-500"
     }
   ];
 
